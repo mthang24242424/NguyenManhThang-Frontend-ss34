@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+}
+#card{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30%;
+}
+input{
+    width: 94%;
+    height: 30px;
+}
+input, label {
+    margin: 10px 3%;
+}
+button{
+    width: 94%;
+    height: 30px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 3%;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3%;
+    color: blue;
+}
